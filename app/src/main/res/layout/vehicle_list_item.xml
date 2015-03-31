@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="18dp"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        />
+
+    <TextView
+        android:id="@+id/range_header"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/display_name"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textColor="#505050"
+        android:text="@string/range_header"
+        android:gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/range_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/range_header"
+        android:layout_alignBaseline="@id/range_header"
+        android:layout_marginLeft="6dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/charge_header"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/range_header"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textColor="#505050"
+        android:text="@string/charge_header"
+        android:gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/charge_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/charge_header"
+        android:layout_alignBaseline="@id/charge_header"
+        android:layout_marginLeft="6dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/charge_time_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/charge_header"
+        android:layout_alignLeft="@id/charge_value"
+        android:layout_marginTop="6dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

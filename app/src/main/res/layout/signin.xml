@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/signin_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:text="@string/signin_header"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/signin_header"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#303030"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:padding="6dp"
+        android:hint="@string/email_hint"
+        android:textColorHint="#909090"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/email"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#303030"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:padding="6dp"
+        android:hint="@string/password_hint"
+        android:textColorHint="#909090"
+        android:inputType="textWebPassword"
+        android:imeOptions="actionGo"
+        />
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/password"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:text="@string/signin_button"
+        android:textSize="24sp"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>

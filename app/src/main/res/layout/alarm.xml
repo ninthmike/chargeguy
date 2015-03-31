@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        >
+
+        <CheckBox
+            android:id="@+id/plugcheck_enabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:text="@string/plugcheck_enabled"
+            />
+
+        <TextView
+            android:id="@+id/plugcheck_time_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plugcheck_enabled"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:textColor="#505050"
+            android:textSize="22sp"
+            android:text="@string/check_time"
+            />
+
+        <TextView
+            android:id="@+id/plugcheck_time_value"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plugcheck_time_header"
+            android:layout_alignLeft="@id/plugcheck_time_header"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/edittext_foreground"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/plugcheck_range_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plugcheck_time_value"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="48dp"
+            android:textColor="#505050"
+            android:textSize="22sp"
+            android:text="@string/plugcheck_range_header"
+            />
+
+        <EditText
+            android:id="@+id/plugcheck_range_value"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plugcheck_range_header"
+            android:layout_alignLeft="@id/plugcheck_range_header"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/edittext_foreground"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:inputType="number"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:id="@+id/plugcheck_range_units"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/plugcheck_range_value"
+            android:layout_toRightOf="@id/plugcheck_range_value"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+        <!-- Range check -->
+
+        <CheckBox
+            android:id="@+id/rangecheck_enabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plugcheck_range_value"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:text="@string/rangecheck_enabled"
+            />
+
+        <TextView
+            android:id="@+id/rangecheck_time_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rangecheck_enabled"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:textColor="#505050"
+            android:textSize="22sp"
+            android:text="@string/check_time"
+            />
+
+        <TextView
+            android:id="@+id/rangecheck_time_value"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rangecheck_time_header"
+            android:layout_alignLeft="@id/rangecheck_time_header"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/edittext_foreground"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/rangecheck_range_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rangecheck_time_value"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="48dp"
+            android:textColor="#505050"
+            android:textSize="22sp"
+            android:text="@string/rangecheck_range_header"
+            />
+
+        <EditText
+            android:id="@+id/rangecheck_range_value"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rangecheck_range_header"
+            android:layout_alignLeft="@id/rangecheck_range_header"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/edittext_foreground"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:inputType="number"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:id="@+id/rangecheck_range_units"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/rangecheck_range_value"
+            android:layout_toRightOf="@id/rangecheck_range_value"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+        <CheckBox
+            android:id="@+id/rangecheck_extranoisy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rangecheck_range_value"
+            android:layout_marginTop="18dp"
+            android:layout_alignLeft="@id/rangecheck_range_header"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/rangecheck_extranoisy"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

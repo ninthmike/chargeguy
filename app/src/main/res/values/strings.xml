@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">ChargeGuy</string>
+    <string name="signin_header">Please enter your credentials for the My Tesla portal.</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="signin_button">Sign In</string>
+    <string name="signin_failed">Cannot Sign In</string>
+    <string name="signin_nofields_message">Please enter your email address and password for the My Tesla portal to continue.</string>
+    <string name="signin_unauth">Unable to sign in.  Please ensure your email address and password are correct.</string>
+    <string name="signing_in">Signing in...</string>
+    <string name="refresh_token_failed">Unable to refresh your access token.  Did you change your password?\n\nPlease sign in again.</string>
+    <string name="generic_server_failed_title">Server Request Failed</string>
+    <string name="generic_server_failed_message">A network request could not be completed.  Are you connected to the Internet?\n\nPlease try again.</string>
+    <string name="getting_vehicles">Getting vehicles list...</string>
+    <string name="querying_gui_template" formatted="false">Querying UI preferences for: %s</string>
+    <string name="querying_charge_template" formatted="false">Querying charge status for: %s</string>
+    <string name="range_template" formatted="false">%d%s (%s)</string>
+    <string name="miles_short">mi</string>
+    <string name="kilometers_short">km</string>
+    <string name="rated">rated</string>
+    <string name="ideal">ideal</string>
+    <string name="range_header">Range:</string>
+    <string name="charge_header">Charge:</string>
+    <string name="charge_status_null">Unknown</string>
+    <string name="charge_status_starting">Starting</string>
+    <string name="charge_status_stopped">Stopped</string>
+    <string name="charge_status_charging">Charging</string>
+    <string name="charge_status_complete">Complete</string>
+    <string name="charge_status_disconnected">Disconnected</string>
+    <string name="charge_status_nopower">No power (!)</string>
+    <string name="charge_template" formatted="false">%d %s   %d V   %d A</string>
+    <string name="charge_template_html" formatted="false"><Data><![CDATA[ <b>%d</b> %s   <b>%d</b> V   <b>%d</b> A ]]> </Data></string>
+    <string name="charge_rate_km">km/hr</string>
+    <string name="charge_rate_mi">mi/hr</string>
+    <string name="time_left_template_hours" formatted="false">%d hr%s, %d min%s remain</string>
+    <string name="time_left_template_mins" formatted="false">%d min%s remain</string>
+    <string name="time_left_template_hours_short" formatted="false">%dh, %dm</string>
+    <string name="time_left_template_mins_short" formatted="false">%dm</string>
+    <string name="plural_suffix">s</string>
+    <string name="intro_title">ChargeGuy for Tesla</string>
+    <string name="intro_message">To manage a car\'s alarms and monitoring, tap the car in the list.</string>
+    <string name="plugcheck_enabled">Disconnected warning</string>
+    <string name="check_time">Check time:</string>
+    <string name="plugcheck_range_header">Warn if range below this amount.</string>
+    <string name="range_units_template" formatted="false">%s (%s)</string>
+    <string name="select_time">Select Time</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="rangecheck_enabled">Range alarm</string>
+    <string name="rangecheck_range_header">Alarm if range below this amount.</string>
+    <string name="rangecheck_extranoisy">Extra noisy</string>
+    <string name="range_miles_req_title">Range Alarm Distance</string>
+    <string name="range_miles_req_message">Please specify a minimum value before range alarm is raised.</string>
+    <string name="notification_title">ChargeGuy for Tesla</string>
+    <string name="notification_failed" formatted="false">Unable to get charge state for %s!</string>
+    <string name="notification_disconnected" formatted="false">%s is not plugged in.</string>
+    <string name="notification_range" formatted="false">%s is low on range!</string>
+    <string name="action_watch">Live Monitor</string>
+    <string name="action_signout">Sign out</string>
+    <string name="monitor_dialog_title">Monitor Car</string>
+    <string name="monitor_dialog_message">ChargeGuy will monitor the car\'s charge status in the background and notify you when it changes.\n\nThis will stop when the charge is complete or after a few hours.</string>
+    <string name="monitor_dialog_othermessage">ChargeGuy is already monitoring another vehicle\'s charge status.\n\nStop monitoring on that vehicle before starting another.</string>
+    <string name="monitor_dialog_stopmessage">ChargeGuy has stopped monitoring this car.</string>
+    <string name="monitor_notification_title" formatted="false">ChargeGuy: %s</string>
+    <string name="monitor_timeout">Monitoring reached maximum duration.</string>
+    <string name="remaining_unknown">unknown</string>
+    <string name="monitor_charging_template" formatted="false">%s (%s)</string>
+</resources>
